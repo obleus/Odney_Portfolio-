@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/IMG_0610.jpeg'
+import ME from '../../assets/IMG_0611-removebg.png'
 import {BsAward} from 'react-icons/bs'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolder} from 'react-icons/vsc'
