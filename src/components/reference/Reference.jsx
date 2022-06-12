@@ -2,6 +2,15 @@ import React from 'react'
 import './reference.css'
 import AVTR1 from '../../assets/IMG_kaila.jpg'
 import AVTR2 from '../../assets/IMG_marlow.jpg'
+// import Swiper core and required modules
+import { Pagination} from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
 
 const data =[
     {
@@ -24,11 +33,11 @@ const Reference = () => {
         <h5>Personal & Professional</h5>
         <h2>Reference</h2>
 
-        <div className="container testimonials_container">
+        <Swiper className="container testimonials_container">
             {
                 data.map(({avatar, name, review, phone}, index) =>{
                     return (
-                        <article key={index} className='testimonial'>
+                        <SwiperSlide key={index} className='testimonial'>
                         <div className="client_avatar">
                             <img src={avatar} alt={name} />
                         </div>
@@ -36,12 +45,12 @@ const Reference = () => {
                     <small className='client_review'>{review}</small>
                     <h5 className='client_phone'>{phone}</h5>
                    
-                    </article>
+                    </SwiperSlide>
         
                     )
                 })
             }
-        </div>
+        </Swiper>
     </section>
   )
 }
