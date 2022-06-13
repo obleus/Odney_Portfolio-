@@ -30,7 +30,7 @@ const About = () => {
               <h5>
                 Clients
               </h5>
-              <small>200+ Worldwide</small>
+              <small>TBD</small>
             </article>
             <article className='about_card'>
               <VscFolder className='about_icon'/>
