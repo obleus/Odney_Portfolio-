@@ -14,13 +14,13 @@ const Contact = () => {
       <div className="container contact_container">
         <div className="contact_options">
           <article className="contact_option">
-            <MdMarkEmailUnread/>
+            <MdMarkEmailUnread className='contact_option-icon'/>
             <h4>Email</h4>
             <h5>Odneyb@yahoo.com</h5>
-            <a href='mailto:odneyb@yahoo.com'>Send A Message</a>
+            <a href='mailto:odneyb@yahoo.com'>Send A Email</a>
           </article>
           <article className="contact_option">
-            <BsFillPhoneFill/>
+            <BsFillPhoneFill className='contact_option-icon'/>
             <h4>Phone</h4>
             <h5>(561)-718-5485</h5>
             <a href='sms:561-718-5485'>Send A Text</a>
