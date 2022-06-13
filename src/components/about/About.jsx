@@ -43,7 +43,7 @@ const About = () => {
           <p>
           I am a Full stack developer with a vast of array of knowledge in many different front-end and back-end languages, responsive frameworks, database, and best code practices. My objective is simply to be the best web developer that I can be and to contribute to the technology industry all that I know and can do. I am dedicated to perfecting my craft by learning from more seasoned developers, remaining humble, and continuously making strides to learn all that I can about development. I believe that my understanding of problem solving is a skill that will contribute to my overall success as a developer.
           </p>
-          <a href='#contact' className='btn btn-primary'>Let's Talk</a>
+          <a href='#contact' className='btn btn-primary'>Let's Connect</a>
         </div>
       </div>
     </section>
