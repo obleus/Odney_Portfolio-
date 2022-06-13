@@ -33,7 +33,13 @@ const Reference = () => {
         <h5>Personal & Professional</h5>
         <h2>Reference</h2>
 
-        <Swiper className="container testimonials_container">
+        <Swiper className="container testimonials_container"
+                  // install Swiper modules
+      modules={[Pagination]}
+      spaceBetween={40}
+      slidesPerView={1}
+      pagination={{ clickable: true }}
+        >
             {
                 data.map(({avatar, name, review, phone}, index) =>{
                     return (

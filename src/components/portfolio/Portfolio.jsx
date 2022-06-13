@@ -69,7 +69,13 @@ const Portfolio = () => {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
-      <Swiper className="container portfolio_container">
+      <Swiper className="container portfolio_container"
+                          // install Swiper modules
+      modules={[Pagination]}
+      spaceBetween={40}
+      slidesPerView={1}
+      pagination={{ clickable: true }}
+      >
         {
           data.map(({id, image, title, github, demo}) => {
             return (
