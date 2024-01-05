@@ -26,8 +26,8 @@ const Contact = () => {
           <article className="contact_option">
             <MdMarkEmailUnread className='contact_option-icon'/>
             <h4>Email</h4>
-            <h5>Odneyb@yahoo.com</h5>
-            <a href='mailto:odneyb@yahoo.com'>Send A Email</a>
+            <h5>bleus.odney@gmail.com</h5>
+            <a href='mailto:bleus.odney@gmail.com'>Send A Email</a>
           </article>
           <article className="contact_option">
             <BsFillPhoneFill className='contact_option-icon'/>
